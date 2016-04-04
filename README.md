@@ -4,7 +4,7 @@
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
 ## Getting and Cleaning Data Process
-For a detailed process of getting the project data, and cleaning the raw data to create a tidy dataset, see [CookBook.md](www.github.com/anneg1000/mygettingandcleaningdata/blob/master/CodeBook.md)
+For a detailed process of getting the project data, and cleaning the raw data to create a tidy dataset, see [CookBook.md](CodeBook.md)
 
 ## How to create the tidy dataset
 1. clone this repo: git clone git@github.com:anneg1000/mygettingandcleaningdata.git
