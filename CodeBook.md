@@ -7,7 +7,7 @@ A full description is available at the site where the data was obtained: [http:/
 The data set for the project can be found at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-### Process in Getting and Cleaning the Raw Data to Create a Tidy Dataset for Further Analysis
+### Process in Getting and Cleaning the Raw Data to Create a Tidy Dataset
 
 1. Downloads the dataset from the URL mentioned above and unzips it to create UCI HAR Dataset folder
 2. Merges the training and the test sets to create one data set, and check the data
