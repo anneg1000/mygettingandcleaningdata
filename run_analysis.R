@@ -3,7 +3,6 @@
 ##******************************************************************
 
 ## 0. Download and unzip the dataset using the url given 
-
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 destdir <- "UCI HAR Dataset"
 zipfile <- "Dataset.zip"
@@ -19,7 +18,7 @@ files
 
 ## 1. Merges the training and the test sets to create one data set
 library(data.table)
-trainx <- read.table("UCI HAR Dataset/train/X_train.txt")
+trainx <- read.table("UCI HAR Dataset/train/X_train.txt") ## altnatively, use file.path(destdir,"train","X_train.txt")  
 testx  <- read.table("UCI HAR Dataset/test/X_test.txt" )
 featuredata <- rbind(trainx, testx)
 
