@@ -17,3 +17,8 @@ The data set for the project can be found at [https://d396qusza40orc.cloudfront.
 6. Write the tidy dataset to a txt file with row.name=FALSE, named 'tidydata.txt'
 7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject, and write it to a text file named 'tidydata_with_average.txt', which has 180 rows and 68 variables, including subject, activity, and those mean/sd measurements
 8. Additionally, the code reshaped the data from wide-format to long-format using melt() based on the 'subject' and 'activity' for all related measurements, and writes to a 3rd file named 'tidydata_with_average_long.txt'.  
+
+### Tidy DataSet Information
+The tidy dataset from step 7 above contains 180 observations, corresponding to 30 subjects’ average activity data for 6 types of activities.
+
+There are 68 variables in the tidy dataset. The first two are 'subject' and 'activity', and the rest of 66 variables are the average of mean values and standard deviation values for the data collected.
